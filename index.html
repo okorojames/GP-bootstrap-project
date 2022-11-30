@@ -38,7 +38,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <a class="navbar-brand fs-1 fw-bold nav-logo" href="#"
             >GP <span class="nav-logo-dot">.</span></a
@@ -84,10 +84,43 @@
                   Dropdown
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link-deep dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown-items"
+                      aria-expanded="false"
+                      >Deep Drop Down</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-items">Deep Drop Down 1</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-items">Deep Drop Down 2</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-items">Deep Drop Down 3</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-items">Deep Drop Down 4</a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-items">Deep Drop Down 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- end deep drop -->
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Drop Down 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Drop Down 3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Drop Down 4</a>
                   </li>
                 </ul>
               </li>
@@ -99,6 +132,97 @@
           <a href="#" class="btn get-started ms-0 ms-lg-5">Get Started</a>
         </div>
       </nav>
+      <!------------------>
+      <!-- HERO SECION -->
+      <!------------------>
+      <main id="hero-section">
+        <div class="container text-center text-light">
+          <div class="row justify-content-center">
+            <div class="first-context col-6">
+              <h2 class="hero-section-h2">
+                Powerful Digital Solutions With Gp
+                <span class="nav-logo-dot">.</span>
+              </h2>
+              <p class="lead hero-section-paragraph">
+                We are team of talented digital marketers
+              </p>
+            </div>
+          </div>
+          <!--hero section five cols-->
+          <div class="row justify-content-center align-items-stretch gap-3">
+            <!--card one-->
+            <div class="card hero-card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-3">
+                  <i class="ri-store-line hero-card-icons"></i>
+                </h5>
+                <div class="row justify-content-center">
+                  <p class="card-text col-8 fs-5 fw-bold hero-card-paragraph">
+                    Lorem Ipsum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--card two-->
+            <div class="card hero-card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-3">
+                  <i class="ri-bar-chart-box-line hero-card-icons"></i>
+                </h5>
+                <div class="row justify-content-center">
+                  <p class="card-text col-12 fs-5 fw-bold hero-card-paragraph">
+                    Dolor Sitema
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--card three-->
+            <div class="card hero-card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-3">
+                  <i class="ri-calendar-todo-line hero-card-icons"></i>
+                </h5>
+                <div class="row justify-content-center">
+                  <p class="card-text col-10 fs-5 fw-bold hero-card-paragraph">
+                    Sedare Perspiciatis
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--card four-->
+            <div class="card hero-card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-3">
+                  <i class="ri-paint-brush-fill hero-card-icons"></i>
+                </h5>
+                <div class="row justify-content-center">
+                  <p class="card-text col-8 fs-5 fw-bold hero-card-paragraph">
+                    Magni Dolores
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <!--card five-->
+            <div class="card hero-card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-3">
+                  <i class="ri-database-2-fill hero-card-icons"></i>
+                </h5>
+                <div class="row justify-content-center">
+                  <p class="card-text col-8 fs-5 fw-bold hero-card-paragraph">
+                    Nemos Enimade
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </main>
     </header>
     <!------------------>
     <!-- BOOTSTRAP JS -->

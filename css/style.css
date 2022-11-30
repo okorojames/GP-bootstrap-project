@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif !important;
+}
 :root {
   --dark-color: #000;
   --grey-color: #222222;
@@ -5,13 +9,17 @@
   --light-color: #fff;
 }
 header {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.38)),
+  position: relative;
+  height: 50rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.438);
 }
 .nav-logo,
 .nav-logo:hover {
@@ -46,4 +54,44 @@ header {
 .get-started:hover {
   background-color: var(--main-color);
   color: var(--grey-color);
+}
+.nav-link-deep {
+  text-decoration: none;
+  color: #222222;
+  padding-left: 1rem;
+}
+/************************/
+/* HERO SECTION STYLES */
+/**********************/
+.hero-section-h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  margin-top: 8rem;
+}
+.hero-section-paragraph {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+.hero-card {
+  background: none;
+  border: 1.5px solid var(--light-color);
+  border-radius: 0;
+  width: 12rem;
+  padding: 1rem 0;
+}
+.hero-card:hover {
+  transition: all 0.5s ease;
+  border-color: var(--main-color);
+}
+.hero-card-icons {
+  font-size: 2.3rem;
+  color: var(--main-color);
+}
+.hero-card-paragraph:hover,
+.hero-card-paragraph:active {
+  transition: all 0.4s ease;
+  cursor: pointer;
+  color: var(--main-color);
 }
