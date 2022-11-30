@@ -40,7 +40,8 @@ header {
 .get-started {
   color: var(--light-color);
   font-size: 16px;
-  border: 1px solid #ffc451;
+  border: 2px solid #ffc451;
+  border-radius: 0;
 }
 .get-started:hover {
   background-color: var(--main-color);
