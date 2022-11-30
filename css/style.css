@@ -2,6 +2,7 @@
   --dark-color: #000;
   --grey-color: #222222;
   --main-color: #ffc451;
+  --light-color: #fff;
 }
 header {
   height: 100vh;
@@ -11,4 +12,24 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.nav-logo {
+  color: var(--light-color);
+}
+.nav-logo-dot {
+  color: var(--main-color);
+}
+.nav-link.active {
+  color: var(--main-color) !important;
+}
+.nav-link {
+  color: var(--light-color);
+}
+.nav-link:hover,
+.nav-link:active {
+  color: var(--main-color);
+}
+.hamburger-open {
+  color: var(--light-color) !important;
+  font-size: 32px;
 }
