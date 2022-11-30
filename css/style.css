@@ -41,7 +41,7 @@ header {
   color: var(--light-color);
   font-size: 16px;
   border: 2px solid #ffc451;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .get-started:hover {
   background-color: var(--main-color);
