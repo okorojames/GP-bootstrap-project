@@ -8,6 +8,9 @@
   --main-color: #ffc451;
   --light-color: #fff;
 }
+body {
+  margin-bottom: 20rem;
+}
 header {
   position: relative;
   padding-bottom: 4rem;
@@ -161,6 +164,39 @@ nav {
   font-size: 1.4rem;
   font-weight: 700;
   margin-top: 10px;
+}
+/***********************/
+/* CTA SECTION STYLES */
+/*********************/
+#cta-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/cta-bg.jpg);
+  background-attachment: fixed;
+  padding: 6rem 0;
+  color: var(--light-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cta-h2 {
+  font-weight: 700;
+}
+.cta-btn:link,
+.cta-btn:visited {
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  display: inline-block;
+  color: var(--light-color) !important;
+  box-shadow: 0 0 0 1.5px rgb(255, 255, 255) !important;
+  padding: 0.5rem 2rem;
+  margin-top: 0.8rem;
+}
+.cta-btn:hover,
+.cta-btn:active {
+  transition: all 0.25s ease;
+  box-shadow: none !important;
+  background: var(--main-color) !important;
+  color: var(--grey-color) !important;
 }
 /******************/
 /* MEDIA SCREENS */
