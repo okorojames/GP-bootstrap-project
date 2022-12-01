@@ -11,7 +11,7 @@
 header {
   position: relative;
   padding-bottom: 4rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)),
+  background: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)),
     url(/images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -94,5 +94,19 @@ nav {
 .hero-card-paragraph:active {
   transition: all 0.4s ease;
   cursor: pointer;
+  color: var(--main-color);
+}
+/*************************/
+/* ABOUT SECTION STYLES */
+/***********************/
+#about {
+  margin-top: 4rem;
+}
+.about-card-h2 {
+  font-weight: 700;
+  opacity: 0.8;
+}
+.about-card-icons {
+  font-size: 1.6rem;
   color: var(--main-color);
 }
