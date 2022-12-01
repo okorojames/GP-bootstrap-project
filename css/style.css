@@ -129,6 +129,17 @@ nav {
 .off-section-h4 {
   font-weight: 500 !important;
 }
+/*********************/
+/* SERVICES STYLING */
+/*******************/
+.services-first-line {
+  height: 1.8px;
+  width: 150px;
+  background: var(--main-color);
+}
+.services-first-h2 {
+  font-weight: 800;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
