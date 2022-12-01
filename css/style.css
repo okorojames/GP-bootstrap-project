@@ -10,8 +10,8 @@
 }
 header {
   position: relative;
-  height: 50rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  padding-bottom: 4rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)),
     url(/images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
