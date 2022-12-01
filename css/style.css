@@ -110,6 +110,15 @@ nav {
   font-size: 1.6rem;
   color: var(--main-color);
 }
+/*******************/
+/* CLIENT SECTION */
+/*****************/
+.carousel-item img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  width: 10% !important;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
