@@ -119,6 +119,16 @@ nav {
   margin-bottom: 2.5rem;
   width: 10% !important;
 }
+/***************/
+/* OFF SECTION */
+/***************/
+.off-section-icons {
+  color: var(--main-color);
+  font-size: 3rem;
+}
+.off-section-h4 {
+  font-weight: 500 !important;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
