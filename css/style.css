@@ -110,3 +110,11 @@ nav {
   font-size: 1.6rem;
   color: var(--main-color);
 }
+/******************/
+/* MEDIA SCREENS */
+/****************/
+@media screen and (max-width: 991px) {
+  .about-rows {
+    flex-wrap: wrap-reverse;
+  }
+}
