@@ -140,6 +140,23 @@ nav {
 .services-first-h2 {
   font-weight: 800;
 }
+.services-section-icon {
+  background: var(--main-color);
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+}
+.services-section-card {
+  width: 19rem;
+  padding: 2rem 2rem;
+  border-radius: 0;
+}
+.services-section-card:hover {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.281);
+  transform: translateY(-20px);
+  border: none;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
