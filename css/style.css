@@ -157,6 +157,11 @@ nav {
   transform: translateY(-20px);
   border: none;
 }
+#services .card-subtitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
