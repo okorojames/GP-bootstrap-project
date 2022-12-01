@@ -37,6 +37,7 @@ nav {
   font-weight: 500;
   font-size: 18px;
 }
+
 .nav-link:hover,
 .nav-link:active {
   color: var(--main-color);
