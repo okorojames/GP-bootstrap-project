@@ -240,6 +240,12 @@ nav {
   transition: 0.5s all ease;
   transform: scale(1.12);
 }
+.portfolio-card-h2 {
+  font-size: 1.4rem;
+}
+.portfolio-card-first-paragraph {
+  font-size: 1rem;
+}
 .portfolio-card-icon {
   cursor: pointer;
   font-size: 1.6rem;
@@ -291,9 +297,19 @@ nav {
     grid-template-columns: 2fr;
     justify-items: center;
   }
+  .portfolio-card-h2 {
+    font-size: 1rem;
+  }
+  .portfolio-card-first-paragraph {
+    font-size: 0.6rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .carousel-item img {
     width: 20% !important;
+  }
+  .portfolio-grid-rows {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
   }
 }
