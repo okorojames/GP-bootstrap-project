@@ -4,3 +4,12 @@ isotopBtn.forEach((isotopButton) => {
     isotopButton.classList.toggle("isotop-active");
   });
 });
+
+$(".single-item").slick({
+  infinite: true,
+  autoplay: true,
+  arrows: false,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  dots: false,
+});

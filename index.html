@@ -15,7 +15,7 @@
     <!------------->
     <!-- AOS CSS -->
     <!------------->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!------------------>
     <!-- FONT-AWESOME, REMIX ICON, & BOX ICONS  -->
     <!------------------>
@@ -35,6 +35,20 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+    <!------------>
+    <!-- SLICK CSS -->
+    <!--------------->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
     <!------------------>
     <!-- FAVICON -->
     <!------------------>
@@ -150,11 +164,7 @@
       <main id="home">
         <div class="container text-center text-light">
           <div class="row justify-content-center">
-            <div
-              class="first-context col-10 col-md-8 col-lg-7"
-              data-aos="zoom-out-up"
-              data-aos-duration="1200"
-            >
+            <div class="first-context col-10 col-md-8 col-lg-7">
               <h2 class="hero-section-h2 text-center">
                 Powerful Digital Solutions With Gp
                 <span class="nav-logo-dot">.</span>
@@ -165,11 +175,7 @@
             </div>
           </div>
           <!--hero section five cols-->
-          <div
-            class="row justify-content-center align-items-stretch gap-3"
-            data-aos="zoom-in-up"
-            data-aos-duration="1500"
-          >
+          <div class="row justify-content-center align-items-stretch gap-3">
             <!--card one-->
             <div class="card hero-card text-center">
               <div class="card-body">
@@ -251,11 +257,7 @@
       <div class="container">
         <div class="row about-rows justify-content-center align-items-center">
           <!--card one-->
-          <div
-            class="card about-card col-lg-6 col-12 border-0"
-            data-aos="fade-up-right"
-            data-aos-duration="1200"
-          >
+          <div class="card about-card col-lg-6 col-12 border-0">
             <div class="card-body">
               <h2 class="card-title about-card-h2 fs-3 mb-3">
                 Voluptatem dignissimos provident quasi corporis voluptates sit
@@ -316,8 +318,6 @@
             src="/images/about.jpg"
             alt=""
             class="card border-0 about-card-img col-md-1/1 col-12 col-lg-6"
-            data-aos="fade-up-left"
-            data-aos-duration="1200"
           />
           <!--  -->
         </div>
@@ -326,39 +326,17 @@
     <!----------------->
     <!-- OFF SECTION -->
     <!----------------->
-    <section
-      id="client-section"
-      class="my-5"
-      data-aos="zoom-in"
-      data-aos-duration="1200"
-    >
-      <div class="container">
+    <section id="client-section" class="my-5">
+      <div class="container single-item">
         <!--  -->
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2500">
-              <div class="carousel-images d-block d-md-flex">
-                <img src="/images/client-1.png" class="d-block" alt="..." />
-                <img src="/images/client-2.png" class="d-block" alt="..." />
-                <img src="/images/client-3.png" class="d-block" alt="..." />
-                <img src="/images/client-4.png" class="d-block" alt="..." />
-              </div>
-            </div>
-            <!--  -->
-            <div class="carousel-item" data-bs-interval="2500">
-              <div class="carousel-images d-block d-md-flex">
-                <img src="/images/client-5.png" class="d-block" alt="..." />
-                <img src="/images/client-6.png" class="d-block" alt="..." />
-                <img src="/images/client-7.png" class="d-block" alt="..." />
-                <img src="/images/client-8.png" class="d-block" alt="..." />
-              </div>
-            </div>
-          </div>
-        </div>
+        <img src="/images/client-1.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-2.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-3.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-4.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-5.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-6.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-7.png" class="d-block img-fluid" alt="..." />
+        <img src="/images/client-8.png" class="d-block img-fluid" alt="..." />
       </div>
     </section>
     <!------------------------->
@@ -372,15 +350,9 @@
             src="/images/features.jpg"
             alt=""
             class="off-section-col-1 col-11 col-lg-5 col-md-10"
-            data-aos="fade-up-right"
-            data-aos-duration="1200"
           />
           <!-- second col -->
-          <div
-            class="off-section-col-2 col-11 col-lg-5 col-md-10"
-            data-aos="fade-up-left"
-            data-aos-duration="1200"
-          >
+          <div class="off-section-col-2 col-11 col-lg-5 col-md-10">
             <!-- second col items one -->
             <div class="off-section-context">
               <div class="d-flex gap-3 align-items-start">
@@ -809,12 +781,32 @@
       </div>
     </section>
     <!------------------>
+    <!-- JQUERY -->
+    <!------------------>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <!------------------>
     <!-- BOOTSTRAP JS -->
     <!------------------>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
+    ></script>
+
+    <!-------------------->
+    <!-- SLICK JS -->
+    <!-------------------->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <!-------------------->
     <!-- AOS JAVASCRIPT -->
