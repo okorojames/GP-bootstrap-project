@@ -217,6 +217,15 @@ nav {
   transition: all 0.8s ease;
   background: var(--main-color);
 }
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-card-image:hover {
+  transition: 0.5s all ease;
+  transform: scale(1.12);
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
