@@ -323,8 +323,8 @@ nav {
   border-radius: 50%;
   background: rgba(63, 63, 63, 0.55);
   padding: 0.7rem;
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
 }
 .testimonial-section-image {
   width: 100%;
@@ -336,8 +336,15 @@ nav {
 }
 .testimonial-second-context-paragraph {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   opacity: 0.89;
+}
+.testimonial-h3 {
+  font-size: 1.4rem;
+}
+.testimonial-paragraph-icon {
+  font-size: 1.8rem;
+  opacity: 0.8;
 }
 /******************/
 /* MEDIA SCREENS */

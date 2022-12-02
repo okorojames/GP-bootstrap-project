@@ -31,7 +31,7 @@ $(".single-item").slick({
   ],
 });
 /*******************/
-/*******************/
+/*****testimonial carousel*****/
 /*******************/
 $(".testimonial-section-carousel").slick({
   infinite: true,
@@ -40,20 +40,6 @@ $(".testimonial-section-carousel").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: true,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-  ],
 });
 /*************/
 /* TYPED JS */
