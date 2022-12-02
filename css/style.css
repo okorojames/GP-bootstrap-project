@@ -329,13 +329,15 @@ nav {
 .testimonial-section-image {
   width: 100%;
   border-radius: 50%;
-}
-.testimonial-img-div:hover {
   transition: all 0.8s ease;
 }
 .testimonial-section-image:hover {
-  transition: all 0.8s ease;
-  transform: scale(1.04);
+  transform: scale(1.06);
+}
+.testimonial-second-context-paragraph {
+  font-weight: 600;
+  font-size: 1.4rem;
+  opacity: 0.89;
 }
 /******************/
 /* MEDIA SCREENS */
