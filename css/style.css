@@ -221,7 +221,8 @@ nav {
 .portfolio-grid-rows {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  row-gap: 1rem;
+  column-gap: -8rem;
   justify-items: center;
   align-items: start;
 }
@@ -257,6 +258,22 @@ nav {
   position: absolute;
   bottom: 2%;
   left: 2%;
+}
+.portfolio-card-six {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.portfolio-card-five {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.portfolio-card-seven {
+  grid-column: 3/4;
+  grid-row: 3;
+}
+.portfolio-card-eight {
+  grid-column: 3/4;
+  grid-row: 4;
 }
 /******************/
 /* MEDIA SCREENS */
