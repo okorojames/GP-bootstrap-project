@@ -15,6 +15,20 @@ $(".single-item").slick({
   slidesToShow: 6,
   slidesToScroll: 1,
   dots: false,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
 });
 /*************/
 /* TYPED JS */
