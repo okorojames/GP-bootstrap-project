@@ -205,6 +205,18 @@ nav {
 .portfolio-first-h2 {
   font-weight: 800;
 }
+.isotope {
+  border: none;
+  background: none;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+.isotop-active .isotope,
+.isotop-active.isotope {
+  transition: all 0.8s ease;
+  background: var(--main-color);
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
