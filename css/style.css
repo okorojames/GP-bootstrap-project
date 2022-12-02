@@ -122,8 +122,7 @@ nav {
 }
 
 #client-section img {
-  height: 50px !important;
-  width: 2% !important;
+  height: 60px !important;
   margin: 0 20px;
   filter: grayscale(100%);
   /* width: 70px !important;
