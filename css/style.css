@@ -286,6 +286,12 @@ nav {
     width: 20% !important;
   }
 }
+@media screen and (max-width: 767px) {
+  .portfolio-grid-rows {
+    grid-template-columns: 2fr;
+    justify-items: center;
+  }
+}
 @media screen and (max-width: 576px) {
   .carousel-item img {
     width: 20% !important;
