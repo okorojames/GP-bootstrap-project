@@ -217,14 +217,44 @@ nav {
   transition: all 0.8s ease;
   background: var(--main-color);
 }
+/* GRID ROWS FOR PORTFOLIO CARDS */
+.portfolio-grid-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  justify-items: center;
+  align-items: start;
+}
 .portfolio-card {
   position: relative;
   overflow: hidden;
 }
-
+.portfolio-card-image {
+  width: 80%;
+  size: 30rem;
+}
 .portfolio-card-image:hover {
   transition: 0.5s all ease;
   transform: scale(1.12);
+}
+.portfolio-card-icon {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.portfolio-card-icon:hover {
+  transition: all 0.35s ease;
+  color: var(--main-color);
+}
+.portfolio-card:hover .portfolio-hover-content {
+  display: block;
+}
+.portfolio-hover-content {
+  transition: all 0.8s ease;
+  display: none;
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
 }
 /******************/
 /* MEDIA SCREENS */
