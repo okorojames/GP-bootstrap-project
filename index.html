@@ -164,7 +164,11 @@
       <main id="home">
         <div class="container text-center text-light">
           <div class="row justify-content-center">
-            <div class="first-context col-10 col-md-8 col-lg-7">
+            <div
+              class="first-context col-10 col-md-8 col-lg-7"
+              data-aos="zoom-in-up"
+              data-aos-duration="1100"
+            >
               <h2 class="hero-section-h2 text-center">
                 Powerful Digital Solutions With Gp
                 <span class="nav-logo-dot">.</span>
@@ -175,9 +179,13 @@
             </div>
           </div>
           <!--hero section five cols-->
-          <div class="row justify-content-center align-items-stretch gap-3">
+          <div
+            class="row justify-content-center align-items-stretch gap-3"
+            data-aos="zoom-in-up"
+            data-aos-duration="1300"
+          >
             <!--card one-->
-            <div class="card hero-card text-center">
+            <div class="card hero-card text-center col-10 col-md-5 col-lg-2">
               <div class="card-body">
                 <h5 class="card-title mb-3">
                   <i class="ri-store-line hero-card-icons"></i>
@@ -191,7 +199,7 @@
             </div>
             <!--  -->
             <!--card two-->
-            <div class="card hero-card text-center">
+            <div class="card hero-card text-center col-10 col-md-5 col-lg-2">
               <div class="card-body">
                 <h5 class="card-title mb-3">
                   <i class="ri-bar-chart-box-line hero-card-icons"></i>
@@ -205,7 +213,7 @@
             </div>
             <!--  -->
             <!--card three-->
-            <div class="card hero-card text-center">
+            <div class="card hero-card text-center col-10 col-md-5 col-lg-2">
               <div class="card-body">
                 <h5 class="card-title mb-3">
                   <i class="ri-calendar-todo-line hero-card-icons"></i>
@@ -219,7 +227,7 @@
             </div>
             <!--  -->
             <!--card four-->
-            <div class="card hero-card text-center">
+            <div class="card hero-card text-center col-10 col-md-5 col-lg-2">
               <div class="card-body">
                 <h5 class="card-title mb-3">
                   <i class="ri-paint-brush-fill hero-card-icons"></i>
@@ -233,7 +241,7 @@
             </div>
             <!--  -->
             <!--card five-->
-            <div class="card hero-card text-center">
+            <div class="card hero-card text-center col-10 col-md-5 col-lg-2">
               <div class="card-body">
                 <h5 class="card-title mb-3">
                   <i class="ri-database-2-fill hero-card-icons"></i>
@@ -816,32 +824,7 @@
     <!-- AOS JAVASCRIPT -->
     <!-------------------->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-
-      // You can also pass an optional settings object
-      // below listed default settings
-      AOS.init({
-        // Global settings:
-        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
-        initClassName: "aos-init", // class applied after initialization
-        animatedClassName: "aos-animate", // class applied on animation
-        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-        offset: 120, // offset (in px) from the original trigger point
-        delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: "ease", // default easing for AOS animations
-        once: false, // whether animation should happen only once - while scrolling down
-        mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
-      });
-    </script>
+    <script src="/js/aos.js"></script>
     <!---------------->
     <!-- JAVASCRIPT -->
     <!---------------->

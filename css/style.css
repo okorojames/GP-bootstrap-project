@@ -83,7 +83,7 @@ nav {
   background: none;
   border: 1.5px solid var(--light-color);
   border-radius: 0;
-  width: 12rem;
+  /* width: 12rem; */
   padding: 1rem 0;
 }
 .hero-card:hover {
