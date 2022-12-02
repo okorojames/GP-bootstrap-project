@@ -297,6 +297,15 @@ nav {
 /*******************/
 /* COUNTS SECTION */
 /*****************/
+.counter-icons {
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+.counter-content-h4 {
+  font-weight: 700;
+  font-size: 2rem;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/

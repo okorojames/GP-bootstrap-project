@@ -45,5 +45,5 @@ $(".single-item").slick({
 /*===========*/
 $(".counter").counterUp({
   delay: 1,
-  time: 600,
+  time: 300,
 });
