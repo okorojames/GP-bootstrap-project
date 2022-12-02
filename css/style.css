@@ -135,7 +135,7 @@ nav {
 /*********************/
 /* SERVICES STYLING */
 /*******************/
-.services-first-line {
+.line {
   height: 1.8px;
   width: 150px;
   background: var(--main-color);
@@ -177,6 +177,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 5rem;
 }
 .cta-h2 {
   font-weight: 700;
@@ -197,6 +198,12 @@ nav {
   box-shadow: none !important;
   background: var(--main-color) !important;
   color: var(--grey-color) !important;
+}
+/**********************/
+/* PORTFOLIO SECTION */
+/********************/
+.portfolio-first-h2 {
+  font-weight: 800;
 }
 /******************/
 /* MEDIA SCREENS */
