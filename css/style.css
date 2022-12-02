@@ -230,10 +230,12 @@ nav {
   overflow: hidden;
 }
 .portfolio-card-image {
+  position: relative;
   width: 80%;
   size: 30rem;
+  border-radius: 10px;
 }
-.portfolio-card-image:hover {
+.portfolio-card:hover .portfolio-card-image {
   transition: 0.5s all ease;
   transform: scale(1.12);
 }
