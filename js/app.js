@@ -33,9 +33,17 @@ $(".single-item").slick({
 /*************/
 /* TYPED JS */
 /***********/
-let typed = new Typed(".type-it", {
-  strings: ["", "Powerful", "Efficient", "Great"],
-  backSpeed: "8",
-  typeSpeed: "7",
-  loop: true,
+// let typed = new Typed(".type-it", {
+//   strings: ["", "Powerful", "Efficient", "Great"],
+//   backSpeed: "8",
+//   typeSpeed: "7",
+//   loop: true,
+// });
+
+/*=============*/
+/*COUNTER CODE*/
+/*===========*/
+$(".counter").counterUp({
+  delay: 1,
+  time: 600,
 });
