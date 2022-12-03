@@ -33,14 +33,14 @@ $(".single-item").slick({
 /*******************/
 /*****testimonial carousel*****/
 /*******************/
-$(".testimonial-section-carousel").slick({
-  infinite: true,
-  autoplay: true,
-  arrows: false,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  dots: true,
-});
+// $(".testimonial-section-carousel").slick({
+//   infinite: true,
+//   autoplay: true,
+//   arrows: false,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   dots: true,
+// });
 /*************/
 /* TYPED JS */
 /***********/

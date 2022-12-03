@@ -240,6 +240,17 @@ nav {
 .portfolio-card {
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
+}
+.portfolio-card::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.514);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
 }
 .portfolio-card-image {
   position: relative;
@@ -275,6 +286,11 @@ nav {
   position: absolute;
   bottom: 2%;
   left: 2%;
+  z-index: 40;
+  color: var(--light-color);
+}
+.portfolio-card-first-paragraph {
+  color: var(--light-color) !important;
 }
 .portfolio-card-six {
   grid-column: 1/2;
@@ -376,6 +392,6 @@ nav {
   }
   .portfolio-grid-rows {
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 50px;
+    justify-items: start;
   }
 }
