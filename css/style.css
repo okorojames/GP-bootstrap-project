@@ -140,6 +140,9 @@ nav {
 .off-section-icons {
   color: var(--main-color);
   font-size: 3rem;
+  /* animation: icon-rotate 1s both infinite; */
+}
+.okay.off-section-icons {
   animation: icon-rotate 1s both infinite;
 }
 @keyframes icon-rotate {
@@ -459,5 +462,8 @@ nav {
   .portfolio-grid-rows {
     grid-template-columns: repeat(2, 1fr);
     justify-items: start;
+  }
+  .testimonial-second-context-paragraph {
+    font-size: 0.8rem !important;
   }
 }

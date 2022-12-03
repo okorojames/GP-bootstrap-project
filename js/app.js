@@ -51,6 +51,15 @@ $(".single-item").slick({
 //   loop: true,
 // });
 
+/*=======================*/
+/*OFF SECTION ICONS CODE*/
+/*=====================*/
+let offSection = document.querySelectorAll(".off-section-icons");
+offSection.forEach((offSec) => {
+  offSec.addEventListener("mouseover", function (e) {
+    offSec.classList.toggle("okay");
+  });
+});
 /*=============*/
 /*COUNTER CODE*/
 /*===========*/
