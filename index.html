@@ -1203,9 +1203,9 @@
           ></iframe>
         </div>
         <!-- contact forrms with css and bootstrap though -->
-        <div class="row justify-content-center align-items-center gap-2 mt-5">
+        <div class="row justify-content-center align-items-center mt-5">
           <!-- contact first col -->
-          <div class="contact-form-first-col">
+          <div class="contact-form-first-col col-10 col-md-6">
             <!-- first item of contact form -->
             <div class="contact-form-first-item d-flex gap-3 align-items-start">
               <i class="ri-map-pin-line contact-form-icon"></i>
@@ -1241,6 +1241,39 @@
             <!--  -->
           </div>
           <!-- second col (OMO 😂) -->
+          <div class="contact-form-second-col col-10 col-md-6">
+            <form class="text-center">
+              <!-- input flex items -->
+              <div class="d-flex gap-3 align-items-center">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                />
+              </div>
+              <!--  -->
+              <input
+                type="text"
+                class="form-control mt-4"
+                placeholder="Subject"
+              />
+              <textarea
+                class="form-control mt-4 contact-textarea"
+                type="text"
+                placeholder="Message"
+              ></textarea>
+              <input
+                type="submit"
+                class="btn contact-btn mt-4"
+                value="Send Message"
+              />
+            </form>
+          </div>
         </div>
       </div>
     </section>

@@ -452,6 +452,18 @@ nav {
   flex-direction: column;
   gap: 2rem;
 }
+.contact-textarea {
+  height: 200px;
+}
+.contact-btn,
+.contact-btn:hover,
+.contact-btn:active {
+  background: var(--main-color) !important;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
