@@ -369,10 +369,14 @@ nav {
 #team {
   margin-top: 5rem;
 }
+#team .row {
+  margin-top: 8rem !important;
+}
 .team-first-h2 {
   font-weight: 700;
 }
 #team .card {
+  width: 16rem;
   padding: 0;
   border-radius: 0.7rem;
   overflow: hidden;
@@ -400,6 +404,9 @@ nav {
   opacity: 0;
   pointer-events: none;
   transition: all 0.8s ease;
+}
+.team-card-h4 {
+  font-size: 1.3rem;
 }
 .team-card-icons {
   font-size: 1.6rem;
