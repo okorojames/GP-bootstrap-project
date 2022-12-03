@@ -418,6 +418,12 @@ nav {
 .team-card-icons:hover {
   background: var(--main-color);
 }
+/************/
+/* CONTACT */
+/**********/
+#contact {
+  margin-top: 8rem;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
