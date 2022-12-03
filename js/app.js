@@ -40,6 +40,14 @@ $(".single-item").slick({
 //   loop: true,
 // });
 
+/*============*/
+/*ISOTOP CODE*/
+/*==========*/
+// $(".portfolio-isotop").isotope({
+//   // options
+//   itemSelector: ".grid-item",
+//   layoutMode: "fitRows",
+// });
 /*=============*/
 /*COUNTER CODE*/
 /*===========*/

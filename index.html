@@ -588,7 +588,7 @@
         <!-- isotope js buttons -->
         <div class="d-flex justify-content-center gap-3 mb-5">
           <button class="isotop-active isotope isotope-one">ALL</button>
-          <button class="isotope isotope-two">APP</button>
+          <button class="isotope isotope-two portfolio-isotop">APP</button>
           <button class="isotope isotope-three">CARD</button>
           <button class="isotope isotope-four">WEB</button>
         </div>
@@ -597,7 +597,7 @@
         <!------------------>
         <div class="portfolio-grid-rows">
           <!-- portfolio card one -->
-          <div class="portfolio-card portfolio-card-one">
+          <div class="portfolio-card portfolio-card-one portfolio-isotop">
             <img
               src="/images/portfolio-1.jpg"
               alt=""
@@ -635,11 +635,14 @@
           </div>
           <!--  -->
           <!-- portfolio card three -->
-          <div class="portfolio-card portfolio-card-three">
+          <div
+            class="portfolio-card portfolio-card-three"
+            data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'
+          >
             <img
               src="/images/portfolio-3.jpg"
               alt=""
-              class="portfolio-card-image"
+              class="portfolio-card-image portfolio-isotop"
             />
             <div class="portfolio-hover-content">
               <h3 class="portfolio-card-h2 fw-bold">APP 2</h3>
@@ -897,6 +900,10 @@
       crossorigin="anonymous"
     ></script>
 
+    <!---------------->
+    <!-- ISOTOP JS -->
+    <!---------------->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!---------------->
     <!-- COUNTER JS -->
     <!---------------->
