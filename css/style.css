@@ -21,6 +21,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
 }
 nav {
   background-color: rgba(0, 0, 0, 0.438);
@@ -139,6 +140,15 @@ nav {
 .off-section-icons {
   color: var(--main-color);
   font-size: 3rem;
+  animation: icon-rotate 1s infinite;
+}
+@keyframes icon-rotate {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 .off-section-h4 {
   font-weight: 500 !important;
