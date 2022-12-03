@@ -140,7 +140,7 @@ nav {
 .off-section-icons {
   color: var(--main-color);
   font-size: 3rem;
-  animation: icon-rotate 1s infinite;
+  animation: icon-rotate 1s both infinite;
 }
 @keyframes icon-rotate {
   from {
@@ -390,6 +390,26 @@ nav {
   padding: 0;
   border-radius: 0.7rem;
   overflow: hidden;
+}
+.team-card-one {
+  animation: moveCard 1.8s both infinite;
+}
+.team-card-two {
+  animation: moveCard 2s both infinite;
+}
+.team-card-three {
+  animation: moveCard 1.6s both infinite;
+}
+.team-card-four {
+  animation: moveCard 2.3s both infinite;
+}
+@keyframes moveCard {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(80px);
+  }
 }
 #team .card:hover .team-card-icon-div {
   animation: forTeam 0.8s ease;
