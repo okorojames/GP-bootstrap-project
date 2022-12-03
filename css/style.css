@@ -384,9 +384,6 @@ nav {
   }
 }
 @media screen and (max-width: 576px) {
-  .carousel-item img {
-    width: 20% !important;
-  }
   .portfolio-grid-rows {
     grid-template-columns: repeat(2, 1fr);
     justify-items: start;
