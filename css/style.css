@@ -363,6 +363,54 @@ nav {
   font-size: 1.8rem;
   opacity: 0.8;
 }
+/*****************/
+/* TEAM SECTION */
+/***************/
+#team {
+  margin-top: 5rem;
+}
+.team-first-h2 {
+  font-weight: 700;
+}
+#team .card {
+  padding: 0;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+#team .card:hover .team-card-icon-div {
+  animation: forTeam 0.8s ease;
+  opacity: 1;
+  pointer-events: auto;
+}
+@keyframes forTeam {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.team-card-icon-div {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.8s ease;
+}
+.team-card-icons {
+  font-size: 1.6rem;
+  background: var(--light-color);
+  padding: 1px 8px;
+  border-radius: 8px;
+  transition: all 0.6s ease;
+}
+.team-card-icons:hover {
+  background: var(--main-color);
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
