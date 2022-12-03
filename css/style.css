@@ -438,6 +438,20 @@ nav {
 #contact {
   margin-top: 8rem;
 }
+.map-iframe {
+  margin-bottom: 6rem;
+}
+.contact-form-icon {
+  font-size: 1.4rem;
+  border-radius: 8px;
+  padding: 6px 9px;
+  background-color: var(--main-color);
+}
+.contact-form-first-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
