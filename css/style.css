@@ -370,9 +370,6 @@ nav {
   .about-rows {
     flex-wrap: wrap-reverse;
   }
-  .carousel-item img {
-    width: 20% !important;
-  }
 }
 @media screen and (max-width: 767px) {
   .portfolio-grid-rows {
