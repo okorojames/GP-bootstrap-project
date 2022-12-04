@@ -446,6 +446,7 @@ nav {
   border-radius: 8px;
   padding: 6px 9px;
   background-color: var(--main-color);
+  animation: icon-rotate 2.5s both infinite;
 }
 .contact-form-first-col {
   display: flex;
