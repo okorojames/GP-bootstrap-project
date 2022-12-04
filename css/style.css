@@ -489,6 +489,27 @@ input:focus,
 textarea:focus {
   border: 1px solid var(--main-color) !important;
 }
+/*******************/
+/* FOOTER SECTION */
+/*****************/
+#footer-section {
+  margin-top: 10rem;
+  background: var(--grey-color);
+  padding: 2rem 0;
+  color: var(--light-color);
+}
+.footer-icons {
+  font-size: 1.6rem;
+  background: #292929;
+  padding: 8px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.footer-icons:hover {
+  background: var(--main-color);
+  color: var(--grey-color);
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
