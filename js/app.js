@@ -66,3 +66,18 @@ function topFunction() {
 /*=========================*/
 /* PORTFOLIO SECTION CODE */
 /*=======================*/
+$(".grid").isotope({
+  // options
+  itemSelector: ".grid-item",
+  layoutMode: "fitRows",
+  transitionDuration: "0.6s",
+});
+
+// ISOTOPE BTNS
+const isotopeBtn = document.querySelectorAll(".isotope-btn");
+isotopeBtn.forEach((isotope) => {
+  isotope.addEventListener("click", function (e) {
+    isotope.classList.remove("active");
+    isotope.classList.add("active");
+  });
+});

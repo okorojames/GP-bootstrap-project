@@ -225,8 +225,63 @@ nav {
 /**********************/
 /* PORTFOLIO SECTION */
 /********************/
+#portfolio {
+  margin-bottom: 12rem;
+}
 .portfolio-first-h2 {
   font-weight: 800;
+}
+.isotope-btn.active {
+  background: var(--main-color);
+}
+.isotope-btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+.gallery-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.gallery-image .gallery-image-img {
+  width: 100%;
+  transition: all 0.8s ease;
+}
+.gallery-image:hover .gallery-image-img {
+  transform-origin: center;
+  transform: scale(1.3);
+}
+.grid-item {
+  padding: 1rem 1rem;
+}
+.image-overlay {
+  color: var(--light-color);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(41, 41, 41, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.gallery-image:hover .image-overlay {
+  opacity: 1;
+  pointer-events: all;
+}
+.img-overlay-icons {
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+.img-overlay-icons:hover {
+  color: var(--main-color);
 }
 /*******************/
 /* COUNTS SECTION */
