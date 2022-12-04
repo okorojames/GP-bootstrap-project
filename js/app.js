@@ -77,7 +77,13 @@ $(".grid").isotope({
 const isotopeBtn = document.querySelectorAll(".isotope-btn");
 isotopeBtn.forEach((isotope) => {
   isotope.addEventListener("click", function (e) {
-    isotope.classList.remove("active");
+    isotopeBtn.forEach((button) => {
+      button.classList.remove("active");
+    });
     isotope.classList.add("active");
+
+    // filter value
+    const filterValue = isotope.dataset.filter;
+    $(".grid").isotope({ filter: filterValue });
   });
 });
