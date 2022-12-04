@@ -272,6 +272,11 @@ nav {
   pointer-events: none;
   transition: all 0.3s ease;
 }
+.img-overlay-content {
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+}
 .gallery-image:hover .image-overlay {
   opacity: 1;
   pointer-events: all;
