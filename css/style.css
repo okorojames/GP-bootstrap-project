@@ -551,6 +551,30 @@ textarea:focus {
 .jamextech {
   color: var(--main-color);
 }
+/****************/
+/* BACK TO TOP */
+/**************/
+.back-to-top-icon {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: var(--dark-color);
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.5s ease;
+}
+.back-to-top-icon:hover,
+.back-to-top-icon:active {
+  background: var(--dark-color);
+  color: var(--main-color);
+}
 /******************/
 /* MEDIA SCREENS */
 /****************/
