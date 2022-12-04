@@ -228,98 +228,6 @@ nav {
 .portfolio-first-h2 {
   font-weight: 800;
 }
-.isotope {
-  border: none;
-  background: none;
-  font-weight: 600;
-  padding: 4px 12px;
-  border-radius: 6px;
-}
-.isotop-active .isotope,
-.isotop-active.isotope {
-  transition: all 0.8s ease;
-  background: var(--main-color);
-}
-/* GRID ROWS FOR PORTFOLIO CARDS */
-.portfolio-grid-rows {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 1rem;
-  column-gap: 3rem;
-  justify-items: center;
-  align-items: start;
-}
-.portfolio-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-}
-.portfolio-card::after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.514);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 4;
-}
-.portfolio-card-image {
-  position: relative;
-  width: 100%;
-}
-.portfolio-card:hover .portfolio-card-image {
-  transform: scale(1.12);
-}
-.portfolio-card .portfolio-card-image {
-  transition: all 0.8s ease;
-}
-.portfolio-card-h2 {
-  font-size: 1.4rem;
-}
-.portfolio-card-first-paragraph {
-  font-size: 1rem;
-}
-.portfolio-card-icon {
-  cursor: pointer;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-.portfolio-card-icon:hover {
-  transition: all 0.35s ease;
-  color: var(--main-color);
-}
-.portfolio-card:hover .portfolio-hover-content {
-  display: block;
-}
-.portfolio-hover-content {
-  transition: all 0.8s ease;
-  display: none;
-  position: absolute;
-  bottom: 2%;
-  left: 2%;
-  z-index: 40;
-  color: var(--light-color);
-}
-.portfolio-card-first-paragraph {
-  color: var(--light-color) !important;
-}
-.portfolio-card-six {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-.portfolio-card-five {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-.portfolio-card-seven {
-  grid-column: 3/4;
-  grid-row: 3;
-}
-.portfolio-card-eight {
-  grid-column: 3/4;
-  grid-row: 4;
-}
 /*******************/
 /* COUNTS SECTION */
 /*****************/
@@ -583,23 +491,8 @@ textarea:focus {
     flex-wrap: wrap-reverse;
   }
 }
-@media screen and (max-width: 767px) {
-  .portfolio-grid-rows {
-    grid-template-columns: 2fr;
-    justify-items: center;
-  }
-  .portfolio-card-h2 {
-    font-size: 1rem;
-  }
-  .portfolio-card-first-paragraph {
-    font-size: 0.6rem;
-  }
-}
+
 @media screen and (max-width: 576px) {
-  .portfolio-grid-rows {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: start;
-  }
   .testimonial-second-context-paragraph {
     font-size: 0.8rem !important;
   }

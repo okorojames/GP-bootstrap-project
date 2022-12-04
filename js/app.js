@@ -1,10 +1,3 @@
-const isotopBtn = document.querySelectorAll(".isotope");
-isotopBtn.forEach((isotopButton) => {
-  isotopButton.addEventListener("mouseover", function (e) {
-    isotopButton.classList.toggle("isotop-active");
-  });
-});
-
 /**************/
 /*  CAROUSEL */
 /************/
@@ -30,26 +23,6 @@ $(".single-item").slick({
     },
   ],
 });
-/*******************/
-/*****testimonial carousel*****/
-/*******************/
-// $(".testimonial-section-carousel").slick({
-//   infinite: true,
-//   autoplay: true,
-//   arrows: false,
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   dots: true,
-// });
-/*************/
-/* TYPED JS */
-/***********/
-// let typed = new Typed(".type-it", {
-//   strings: ["", "Powerful", "Efficient", "Great"],
-//   backSpeed: "8",
-//   typeSpeed: "7",
-//   loop: true,
-// });
 
 /*=======================*/
 /*OFF SECTION ICONS CODE*/
@@ -71,7 +44,7 @@ $(".counter").counterUp({
 // BACK TO TOP BTN:
 let mybutton = document.querySelector(".back-to-top-icon");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 80px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -89,3 +62,7 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/*=========================*/
+/* PORTFOLIO SECTION CODE */
+/*=======================*/
