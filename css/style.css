@@ -9,7 +9,6 @@
   --light-color: #fff;
 }
 body {
-  margin-bottom: 20rem;
   overflow-x: hidden;
 }
 header {
@@ -509,6 +508,48 @@ textarea:focus {
 .footer-icons:hover {
   background: var(--main-color);
   color: var(--grey-color);
+}
+.footer-second-col-icons {
+  color: var(--main-color);
+}
+.footer-links:link,
+.footer-links:visited {
+  text-decoration: none;
+  color: var(--light-color);
+  transition: all 0.4s ease;
+}
+.footer-links:hover,
+.footer-links:active {
+  color: var(--main-color);
+}
+
+.list-group-item {
+  background: var(--main-color);
+  /* padding-right: 8px !important; */
+}
+.footer-sub-input {
+  padding: 8px 50px;
+}
+.footer-sub-btn,
+.footer-sub-btn:hover,
+.footer-sub-btn:active {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  background: var(--main-color);
+  border: none;
+  outline: none;
+}
+/*****************/
+/* INNER FOOTER */
+/***************/
+#innerFooter {
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 6rem 0;
+}
+.jamextech {
+  color: var(--main-color);
 }
 /******************/
 /* MEDIA SCREENS */
