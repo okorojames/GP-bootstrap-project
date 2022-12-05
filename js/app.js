@@ -98,3 +98,9 @@ navsLinks.forEach((navLink) => {
     navLink.classList.add("active");
   });
 });
+
+// LIGHT BOX
+
+lightbox.fitImagesInViewport({
+  fitImagesInViewport: true,
+});
