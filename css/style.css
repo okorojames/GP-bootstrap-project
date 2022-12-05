@@ -42,7 +42,6 @@ nav {
   font-size: 18px;
 }
 
-.nav-link:hover,
 .nav-link:active {
   color: var(--main-color);
 }

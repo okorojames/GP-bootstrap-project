@@ -87,3 +87,14 @@ isotopeBtn.forEach((isotope) => {
     $(".grid").isotope({ filter: filterValue });
   });
 });
+
+// NAV-LINKS
+const navsLinks = document.querySelectorAll(".nav-link");
+navsLinks.forEach((navLink) => {
+  navLink.addEventListener("mouseover", function () {
+    navsLinks.forEach((navs) => {
+      navs.classList.remove("active");
+    });
+    navLink.classList.add("active");
+  });
+});
