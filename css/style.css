@@ -82,12 +82,13 @@ nav {
   background: none;
   border: 1.5px solid var(--light-color);
   border-radius: 0;
-  /* width: 12rem; */
   padding: 1rem 0;
+  transform-origin: center;
+  transition: all 0.5s ease;
 }
 .hero-card:hover {
-  transition: all 0.5s ease;
   border-color: var(--main-color);
+  transform: scale(1.06);
 }
 .hero-card-icons {
   font-size: 2.3rem;
