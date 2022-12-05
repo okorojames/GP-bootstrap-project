@@ -20,7 +20,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%); */
 }
 nav {
   background-color: rgba(0, 0, 0, 0.438);
