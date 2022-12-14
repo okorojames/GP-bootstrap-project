@@ -149,14 +149,18 @@ nav {
   /* animation: icon-rotate 1s both infinite; */
 }
 .okay.off-section-icons {
-  animation: icon-rotate 1s both infinite;
+  /* the alternate-reverse makes the animation delay in both the forward and backward direction */
+  /* animation: icon-rotate 1s both infinite alternate-reverse; */
+  animation: icon-rotate 1s both infinite alternate-reverse;
 }
 @keyframes icon-rotate {
   from {
-    transform: rotateY(0);
+    transform: rotateY(0deg);
+    /* transform: translateY(-30px); */
   }
   to {
     transform: rotateY(360deg);
+    /* transform: translateY(60px); */
   }
 }
 .off-section-h4 {
@@ -382,11 +386,11 @@ nav {
 @keyframes forTeam {
   0% {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateY(-100px) translateX(-50%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) translateX(-50%);
   }
 }
 .team-card-icon-div {
@@ -549,6 +553,15 @@ textarea:focus {
   border-radius: 8px;
   font-size: 18px;
   transition: all 0.5s ease;
+  animation: btt-btn-anime 2s both infinite alternate-reverse;
+}
+@keyframes btt-btn-anime {
+  from {
+    transform: translateY(-7px);
+  }
+  to {
+    transform: translateY(9px);
+  }
 }
 .back-to-top-icon:hover,
 .back-to-top-icon:active {
