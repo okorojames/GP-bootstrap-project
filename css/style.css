@@ -23,7 +23,7 @@ header {
   /* clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%); */
 }
 nav {
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 .nav-logo,
 .nav-logo:hover {
